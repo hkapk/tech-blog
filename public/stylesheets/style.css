@@ -23,6 +23,7 @@ a {
   background-color: white;
   font-weight: bold;
   transition: color 0.1s;
+  padding: 2px;
 }
 
 btn-out {
