@@ -26,15 +26,6 @@ a {
   padding: 2px;
 }
 
-btn-out {
-  text-decoration: none;
-  font-size: 24px;
-  color: #654321;
-  background-color: white;
-  font-weight: bold;
-  transition: color 0.1s;
-}
-
 button {
   background-color: #654321;
   border: 0;

@@ -12,17 +12,17 @@
   <div class="wrapper">
     <header>
       <h1>
-        <a href="/">The Tech Blog</a>
+        <a>The Tech Blog</a>
       </h1>
 <nav>
-  {{#if loggedIn}}
   <a href="/">home</a>
+  {{#if loggedIn}}
   <a href="/dashboard">dashboard</a>
-  <a href="/login">login</a>
+  <a id = "logout" href="/">logout</a>
   {{else}}
-  <a href="/login">home</a>
   <a href="/login">dashboard</a>
   <a href="/login">login</a>
+
   {{/if}}
 
 </nav>
@@ -32,7 +32,6 @@
     </main>
     <footer>
       Thanks for visiting!
-       <button id="logout" class="btn-no-style">logout</button>
     </footer>
   </div>
 

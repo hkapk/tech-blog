@@ -1,16 +1,12 @@
 <article class="post">
   <div class="title">
-    <a href="{{title}}" target="_blank">{{title}}</a>
-   
+      {{!-- {{#if loggedIn}} --}}
+    <a href="{{post-info}}" target="_blank">{{title}}</a> Posted by {{username}} on {{format_date created_at}}
+  {{!-- {{else}}
+  <a href="{{login}}" target="_blank">{{title}}</a> Posted by {{username}} on {{format_date created_at}}
   </div>
+  {{/if}} --}}
   <div class="post_content">
       <a href="{{post_content}}" target="_blank">{{post_content}}</a>
-  </div>
-  <div class="meta">
-    <div class="meta">
-  |
-  <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
-</div>
-
   </div>
 </article>
