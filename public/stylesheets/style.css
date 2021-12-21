@@ -20,7 +20,7 @@ a {
   text-decoration: none;
   font-size: 24px;
   color: #654321;
-  background-color: white;
+  background-color: #ffffa7;
   font-weight: bold;
   transition: color 0.1s;
   padding: 2px;
@@ -107,6 +107,7 @@ main {
   flex: 1;
   padding: 2% 4%;
   color: #654321;
+  background-color: #ffffa7;
 }
 
 .btn-no-style {
@@ -140,6 +141,14 @@ main {
   line-height: 150%;
 }
 
+.post .title {
+  background-color: none;
+}
+
+.post .post-content {
+  background-color: #ffffa7;
+}
+
 .post .title span {
   font-style: italic;
   font-size: 90%;
@@ -149,15 +158,6 @@ main {
 .edit-link {
   display: block;
   margin: -1.5% 0 2% 0;
-}
-
-.upvote-btn {
-  background-color: #197d0f;
-  transition: background-color 0.1s;
-}
-
-.upvote-btn:hover {
-  background-color: #1f9c13;
 }
 
 .comment-form {
@@ -194,4 +194,5 @@ footer {
   padding: 1%;
   font-size: 110%;
   color: #654321;
+  background-color: #ffffa7;
 }
