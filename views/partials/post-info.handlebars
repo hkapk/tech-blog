@@ -1,12 +1,22 @@
 <article class="post">
   <div class="title">
-      {{!-- {{#if loggedIn}} --}}
-    <a href="{{post-info}}" target="_blank">{{title}}</a> Posted by {{username}} on {{format_date created_at}}
-  {{!-- {{else}}
-  <a href="{{login}}" target="_blank">{{title}}</a> Posted by {{username}} on {{format_date created_at}}
+
+    <span>
+      <i class="post-title" id ="post-title">
+    <a href="/post/{{id}}" target="_blank">{{title}}</a> Posted by {{user.username}} on {{format_date created_at}}
+    </span>
   </div>
-  {{/if}} --}}
+
+  <span class="post-content" id ="post-content">
   <div class="post_content">
-      <a href="{{post_content}}" target="_blank">{{post_content}}</a>
-  </div>
+      <a href="/post/{{id}}" target="_blank">{{post_content}}</a>
+ </span>
+ </div>
+   <div class="meta">
+    <div class="meta">
+      |
+ <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+
+ </span>
+ </div>
 </article>

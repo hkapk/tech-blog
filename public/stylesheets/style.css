@@ -11,6 +11,10 @@ html {
   color: #333;
 }
 
+.post-list {
+  list-style: none;
+}
+
 .sign {
   font-size: 18px;
   color: #654321;
@@ -21,9 +25,9 @@ a {
   font-size: 24px;
   color: #654321;
   background-color: #ffffa7;
-  font-weight: bold;
   transition: color 0.1s;
   padding: 2px;
+  font-style: normal;
 }
 
 button {
@@ -186,4 +190,5 @@ footer {
   font-size: 110%;
   color: #654321;
   background-color: #ffffa7;
+  font-style: normal;
 }

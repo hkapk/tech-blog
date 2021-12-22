@@ -6,6 +6,27 @@
   {{/each}}
 </ol>
 {{#if loggedIn}}
+
+<article class="post">
+  <div class="title">
+
+    <span>
+      <i class="post-title" id ="post-title">
+    <a href="/post/{{id}}" target="_blank">{{title}}</a> Posted by {{user.username}} on {{format_date created_at}}
+    </span>
+  </div>
+
+  <span class="post-content" id ="post-content">
+  <div class="post_content">
+      <a href="/post/{{id}}" target="_blank">{{post_content}}</a>
+ </span>
+ </div>
+   <div class="meta">
+    <div class="meta">
+      |
+ <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+
+
 <form class="comment-form">
   <div>
     <textarea name="comment-body"></textarea>
@@ -23,5 +44,4 @@
 
 {{#if loggedIn}}
 <script src="/javascript/comment.js"></script>
-<script src="/javascript/upvote.js"></script>
 {{/if}}

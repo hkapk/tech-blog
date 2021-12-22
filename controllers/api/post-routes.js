@@ -19,14 +19,14 @@ router.get('/', (req, res) => {
         model: User,
         attributes: ['username']
       },
-      // {
-      //   model: Comment,
-      //   attributes: ['id', 'comment_text', 'created_at'],
-      //   include: {
-      //     model: Post,
-      //     attributes: ['title']
-      //   },
-      //}
+      {
+        model: Comment,
+        attributes: ['id', 'comment_text', 'created_at'],
+        include: {
+          model: Post,
+          attributes: ['title']
+        },
+      }
     ]
   })
     .then(dbPostData => res.json(dbPostData))
