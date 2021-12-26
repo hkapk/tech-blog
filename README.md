@@ -1,5 +1,11 @@
 # tech-blog
 
+deployed site: https://sheltered-meadow-11937.herokuapp.com/
+
+https://github.com/hkapk
+
+https://user-images.githubusercontent.com/90150749/147420784-a65f6619-a1a2-4f2c-adff-4486fecb1a9d.mp4
+
 ## Project Description:
 
 This is a CMS-style blog where developers can publish blog posts and comment on other blog posts. The site is built from scratch and deployed to heroku. The app follows the MVC paradigm in architectural structure and uses handlebars.js as a templating language. Sequelize is used as the ORM and the express-session npm is used for authentication.
