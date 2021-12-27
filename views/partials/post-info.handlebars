@@ -1,5 +1,5 @@
 
-{{#if loggedIn}}
+
 <article class="post">
   <div class="title">
     <span>
@@ -18,11 +18,12 @@
     <div class="meta">
       |
  <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+ {{> comments post.comments}}
  </div>
  </div>
 </article>
-{{else}}
-<article class="post">
+
+{{!-- <article class="post">
   <div class="title">
     <span>
       <i class="post-title" id ="post-title">
@@ -42,5 +43,4 @@
  <a href="/login">{{comments.length}} {{format_plural "comment" comments.length}}</a>
  </div>
  </div>
-</article>
-{{/if}}
+</article> --}}
