@@ -1,11 +1,13 @@
 
 {{> post-info post }}
 
-<a href="/comments/{{id}}" target="_blank">{{comment_text}}</a>
+<a href="/comments/{{id}}">{{comment_text}}</a>
 
+<a href="/login">{{comment_text}}</a>
 
  {{> comments post.comments}}
 
+{{#if loggedIn}}
 <form class="comment-form">
   <div>
     <textarea name="comment-body"></textarea>
@@ -16,8 +18,7 @@
   </div>
 </form>
 
-
-
+{{/if}}
 
 
 

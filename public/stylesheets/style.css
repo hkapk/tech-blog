@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+.comment {
+  font-style: normal;
+}
+
 body,
 html {
   height: 100%;
