@@ -11,13 +11,14 @@
     "npm-check-updates": "^12.0.5",
     "sequelize": "^6.12.0"
   },
-  "name": "tech-blog",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "seed": "node seeds/index.js"
-  }
+  },
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js"
+
 }

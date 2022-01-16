@@ -1,25 +1,19 @@
-
-
 <article class="post">
   <div class="title">
     <span>
       <i class="post-title" id ="post-title">
-      <a href="/post/{{id}}" >{{title}}</a> Posted by {{user.username}} on {{format_date created_at}}
+      <a href="/login" >{{title}}</a> Posted by {{user.username}} on {{format_date created_at}}
     </span>
   </div>
   <span class="post-content" id ="post-content">
   <div class="post_content">
-    <a href="/post/{{id}}">{{post_content}}</a>
+    <a href="/login">{{post_content}}</a>
  </span>
  </div>
    <div class="meta">
     <div class="meta">
       |
- <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+ <a href="/login">{{comments.length}} {{format_plural "comment" comments.length}}</a>
  </div>
  </div>
 </article>
-
-
-
-

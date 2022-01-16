@@ -1,11 +1,8 @@
 
+
 {{> post-info post }}
 
-<a href="/comments/{{id}}">{{comment_text}}</a>
-
-<a href="/login">{{comment_text}}</a>
-
- {{> comments post.comments}}
+{{> comments post.comments}}
 
 {{#if loggedIn}}
 <form class="comment-form">
@@ -17,9 +14,11 @@
     <button type="submit">add comment</button>
   </div>
 </form>
+{{else}}
+
+{{login-partial }}
 
 {{/if}}
-
 
 
 {{#if loggedIn}}

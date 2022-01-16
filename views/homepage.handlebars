@@ -1,4 +1,5 @@
 
+{{#if loggedIn}}
 <ol class="post-list">
   {{#each posts as |post|}}
   <li>
@@ -6,3 +7,13 @@
   </li>
   {{/each}}
 </ol>
+{{else}}
+
+<ol class="post-list">
+  {{#each posts as |post|}}
+  <li>
+    {{> login-partial post }}
+  </li>
+  {{/each}}
+</ol>
+{{/if}}
