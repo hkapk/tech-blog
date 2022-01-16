@@ -1,10 +1,10 @@
 # tech-blog
 
-Here is the [Deployed site](https://sheltered-meadow-11937.herokuapp.com/)
+The Deployed Site [can be found here](https://sheltered-meadow-11937.herokuapp.com/)
 
 https://github.com/hkapk
 
-Here is a Walk thru video: https://user-images.githubusercontent.com/90150749/149674427-a72904c7-044c-4df1-b099-197de0e836d5.mp4
+https://user-images.githubusercontent.com/90150749/149674427-a72904c7-044c-4df1-b099-197de0e836d5.mp4
 
 ## Project Description:
 
